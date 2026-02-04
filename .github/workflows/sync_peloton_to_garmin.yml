@@ -13,7 +13,7 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: '0 14,23 * * *'
+    #- cron: '0 14,23 * * *'
 
 env:
   OUTPUT_DIR: /app/output
